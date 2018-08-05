@@ -1,0 +1,343 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+vbnetDnn
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApp1.My.Resources.Resources">
+<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.ResourceManager">
+<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Culture">
+<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member>
+<member name="M:WindowsApp1.Calculate.addTwoMatrix(WindowsApp1.Matrix,WindowsApp1.Matrix)">
+ <summary>
+ 求两个同型矩阵的和
+ </summary>
+ <param name="matrix_1">第一个矩阵</param>
+ <param name="matrix_2">第二个矩阵</param>
+ <returns>返回两个矩阵的和</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.minusTwoMatrix(WindowsApp1.Matrix,WindowsApp1.Matrix)">
+ <summary>
+ 返回矩阵1减去矩阵2的值,对应元素相减,需要行数列数一致
+ </summary>
+ <param name="matrix_1">第一个矩阵</param>
+ <param name="matrix_2">被减去的矩阵</param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp1.Calculate.multiplyTwoMatrix(WindowsApp1.Matrix,WindowsApp1.Matrix)">
+ <summary>
+ 矩阵相乘,左矩阵的列数等于右边矩阵的行数
+ </summary>
+ <param name="matrix_1">左矩阵</param>
+ <param name="matrix_2">右矩阵</param>
+ <returns>返回乘起来的矩阵</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.scalarMultiplicationMatrix(WindowsApp1.Matrix,System.Single)">
+ <summary>
+ 矩阵的数乘运算
+ </summary>
+ <param name="rawMatrix">原始矩阵</param>
+ <param name="scalarNum">矩阵要乘的一个数字</param>
+ <returns>矩阵数乘的结果</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.scalarMultiplicationVector(WindowsApp1.Vector{System.Single},System.Single)">
+ <summary>
+ 数乘向量
+ </summary>
+ <param name="rawVector">原始向量</param>
+ <param name="scalarNum">数</param>
+ <returns>返回这个数乘以向量的每一个元素</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.transposition(WindowsApp1.Matrix)">
+ <summary>
+ 矩阵转置
+ </summary>
+ <param name="rawMatrix">原矩阵</param>
+ <returns>返回转置之后的矩阵</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.sumOfMatrixItems(WindowsApp1.Matrix)">
+ <summary>
+ 求矩阵中所有元素的和
+ </summary>
+ <param name="rawMatrix">被求和的矩阵</param>
+ <returns>矩阵元素的和</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.clip(WindowsApp1.Matrix,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 从原矩阵上剪裁一个矩阵
+ </summary>
+ <param name="rawMatrix">原始矩阵</param>
+ <param name="startRow">开始行</param>
+ <param name="endRow">结束行</param>
+ <param name="startColumn">开始列</param>
+ <param name="endColumn">结束列</param>
+ <returns>返回矩形区域代表的矩阵</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.multiplyTwoVectors(WindowsApp1.Vector{System.Single},WindowsApp1.Vector{System.Single})">
+ <summary>
+ 计算两个向量对应元素相乘，要求两个向量长度一致[Hadamard 乘积]
+ </summary>
+ <param name="vector1">第一个向量</param>
+ <param name="vector2">第二个向量</param>
+ <returns>返回一个和参数中的向量同长度的向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.multiplyMatrixAndVector(WindowsApp1.Matrix,WindowsApp1.Vector{System.Single})">
+ <summary>
+ 计算向量和矩阵的乘积1*n*n*s=1*s
+ </summary>
+ <param name="rawVector">原来的向量n*1</param>
+ <param name="rawMatrix">原来的矩阵n*s</param>
+ <returns>返回一个s*1的向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.sigmoid(System.Single)">
+ <summary>
+ 用s型函数来作为激活函数
+ </summary>
+ <param name="rawNum">被处理的单精度数字</param>
+ <returns>返回一个经过sigmoid函数处理之后的数字</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.sigmoid(WindowsApp1.Vector{System.Single})">
+ <summary>
+ 用s型函数来作为激活函数
+ </summary>
+ <param name="rawVector"></param>
+ <returns>返回s型激活后的向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.derivativeOfCost(WindowsApp1.Vector{System.Single},WindowsApp1.Vector{System.Single})">
+ <summary>
+ 欧氏距离的代价函数的求导公式
+ </summary>
+ <param name="outputActivations">实际输出的激活值向量</param>
+ <param name="outputYVector">预期输出的激活值向量</param>
+ <returns>返回代价函数对输出激活值的导数,最后的结果是  实际 - 预期 ,预期就是根据标签确定的输出向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.createOnesVector(System.Int32)">
+ <summary>
+ 创建一个向量,向量元素都是1
+ </summary>
+ <param name="lenOfVector">向量的长度</param>
+ <returns>返回一个元素值全是1的向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.minusTwoVectors(WindowsApp1.Vector{System.Single},WindowsApp1.Vector{System.Single})">
+ <summary>
+ 返回两个同型向量的差
+ </summary>
+ <param name="vector1">第一个向量</param>
+ <param name="vector2">第二个向量</param>
+ <returns>返回vector1-vector2代表的向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.addTwoVectors(WindowsApp1.Vector{System.Single},WindowsApp1.Vector{System.Single})">
+ <summary>
+ 向量求和，对应元素相加
+ </summary>
+ <param name="vector1">向量1</param>
+ <param name="vector2">向量2</param>
+ <returns>返回一个同型向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.transformVectorToMatrix(WindowsApp1.Vector{System.Single})">
+ <summary>
+ 把一个向量转换成一个矩阵
+ </summary>
+ <param name="rawVector"></param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp1.Calculate.shuffleMatrix(WindowsApp1.Matrix)">
+ <summary>
+ 对矩阵按行洗牌，打乱其中的元素
+ </summary>
+ <param name="rawMatrix">原始矩阵不会受影响</param>
+ <returns>返回另一个被打乱的矩阵</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.shuffleVector(WindowsApp1.Vector{System.Single})">
+ <summary>
+ 对向量洗牌，打乱其中的元素
+ </summary>
+ <param name="rawVector">原始向量不会受影响</param>
+ <returns>返回另一个被打乱的向量</returns>
+</member>
+<member name="M:WindowsApp1.Calculate.exchangeMatrixTwoRows(WindowsApp1.Matrix@,System.Int32,System.Int32)">
+ <summary>
+ 交换矩阵的两行
+ </summary>
+ <param name="rawMatrix">原始矩阵</param>
+ <param name="one">第一个位置</param>
+ <param name="two">第二个位置</param>
+</member>
+<member name="M:WindowsApp1.Calculate.exchangeVectorTwoItems(WindowsApp1.Vector{System.Single}@,System.Int32,System.Int32)">
+ <summary>
+ 交换向量两个位置的元素
+ </summary>
+ <param name="rawVector">原始向量</param>
+ <param name="one">第一个位置</param>
+ <param name="two">第二个位置</param>
+</member>
+<member name="M:WindowsApp1.Calculate.matrixRowToVector(WindowsApp1.Matrix,System.Int32)">
+ <summary>
+ 把矩阵的某一行变成一个列向量
+ </summary>
+ <param name="rawMatrix">原始矩阵</param>
+ <param name="rowNum">矩阵的这个行</param>
+ <returns>返回一个列向量</returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.inputLayer_NeuralCount">
+ <summary>
+ 输入层神经元的个数
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.hiddenLayer_NueralCountVector">
+ <summary>
+ 隐藏层神经元个数,用一个向量来存储起来
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.outputLayer_NeuralCount">
+ <summary>
+ 输出层的神经元个数
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.studyRate">
+ <summary>
+ 学习率
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp1.DeepNeuralNetWork.#ctor(System.Int32,WindowsApp1.Vector{System.Int32},System.Int32,System.Single)">
+ <summary>
+ 构造函数
+ </summary>
+ <param name="m_inputLayer_NeuralCount">输入层神经元个数</param>
+ <param name="m_hiddenLayer_NueralCountVector">隐藏层神经元个数用向量表示,比如(5,6,7)代表三层隐藏层,长度分别是5,6,7</param>
+ <param name="m_outputLayer_NeuralCount">输出层神经元个数</param>
+ <param name="m_studyRate">学习率</param>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.outputLayerZVector">
+ <summary>
+ 输出层的没有经过激活函数的向量
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp1.DeepNeuralNetWork.initialWeightsAndBiasAndErrors">
+ <summary>
+ 初始化权重们和偏执们和误差们
+ </summary>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.inputXVector">
+ <summary>
+ 输入层的向量
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.outputActivationsVector">
+ <summary>
+ 输出层的向量
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.outputYVector">
+ <summary>
+ 期望输出的Y值向量
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.outputLayerBiasVector">
+ <summary>
+ 输出层的偏置向量
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.hiddenLayerZVectorList">
+ <summary>
+ 隐藏层的z向量 们
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.outputErrorVector">
+ <summary>
+ 输出层的error向量
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.hiddenLayerErrorsList">
+ <summary>
+ 隐藏层的误差们
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp1.DeepNeuralNetWork.feedForward(WindowsApp1.Vector{System.Single})">
+ <summary>
+ 前馈，由一组输入经过各个层的传播得到一组输出,输出是激活后的向量
+ </summary>
+ <param name="m_inputXVector">输入向量</param>
+ <returns>输出激活之后的向量</returns>
+</member>
+<member name="P:WindowsApp1.DeepNeuralNetWork.bitmap">
+ <summary>
+ 可视化
+ </summary>
+ <returns>返回一个图片</returns>
+</member>
+<member name="M:WindowsApp1.DeepNeuralNetWork.draw">
+ <summary>
+ 调用这个方法就可以画出来当前运行之后的 网络
+ </summary>
+</member>
+<member name="M:WindowsApp1.DeepNeuralNetWork.backPropagateTheError(WindowsApp1.Vector{System.Single})">
+ <summary>
+ 产生隐藏层和输出层的误差向量
+ 向前传播
+ </summary>
+</member>
+<member name="F:WindowsApp1.Matrix._rowsCount">
+ <summary>
+ 行数
+ </summary>
+</member>
+<member name="F:WindowsApp1.Matrix._columnsCount">
+ <summary>
+ 列数
+ </summary>
+</member>
+<member name="F:WindowsApp1.Matrix._array2D">
+ <summary>
+ 内部的二维数组
+ </summary>
+</member>
+<member name="M:WindowsApp1.Matrix.#ctor(System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ 构造函数
+ </summary>
+ <param name="m_rowsCount">行数</param>
+ <param name="m_colunmsCount">列数</param>
+ <param name="isRand">如果这个是True就用随机数来填充这个矩阵</param>
+</member>
+<member name="M:WindowsApp1.Vector`1.#ctor(`0[])">
+ <summary>
+ 构造函数
+ </summary>
+ <param name="count">指定向量内部的数组</param>
+</member>
+<member name="M:WindowsApp1.Vector`1.#ctor(System.Int32,System.Boolean)">
+ <summary>
+ 构造函数
+ </summary>
+ <param name="m_lenOfVector">向量长度</param>
+ <param name="isRand">如果这个参数是True那么用随机数来填充这个向量</param>
+</member>
+</members>
+</doc>

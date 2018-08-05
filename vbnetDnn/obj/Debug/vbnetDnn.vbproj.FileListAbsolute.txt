@@ -1,0 +1,16 @@
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\WindowsApp1.Form1.resources
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\WindowsApp1.Resources.resources
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.vbproj.GenerateResource.cache
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.vbproj.CoreCompileInputs.cache
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Debug\vbnetDnn.exe.config
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Debug\vbnetDnn.exe
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Debug\vbnetDnn.pdb
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Debug\vbnetDnn.xml
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.exe
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.xml
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.pdb
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.vbproj.ResolveComReference.cache
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.vbproj.CopyComplete
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\WindowsApp1.recognizeWrite.resources
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Debug\vbnetDnn.vbprojAssemblyReference.cache
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Debug\Newtonsoft.Json.dll

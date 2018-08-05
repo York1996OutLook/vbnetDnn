@@ -1,0 +1,14 @@
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Release\vbnetDnn.exe.config
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Release\vbnetDnn.exe
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Release\vbnetDnn.pdb
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Release\vbnetDnn.xml
+E:\毕业设计用\vbnetDnn\vbnetDnn\bin\Release\Newtonsoft.Json.dll
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\vbnetDnn.vbproj.ResolveComReference.cache
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\WindowsApp1.Form1.resources
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\WindowsApp1.Resources.resources
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\vbnetDnn.vbproj.GenerateResource.cache
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\vbnetDnn.vbproj.CoreCompileInputs.cache
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\vbnetDnn.vbproj.CopyComplete
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\vbnetDnn.exe
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\vbnetDnn.xml
+E:\毕业设计用\vbnetDnn\vbnetDnn\obj\Release\vbnetDnn.pdb
